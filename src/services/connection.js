@@ -1,8 +1,8 @@
 const axios = require("axios");
 
-const Conection = axios.create({
-    baseURL: 'https://api.github.com/users/repos',
+const ConectionFace = axios.create({
+    baseURL: 'https://graph.facebook.com/v5.0/',
     timeout: 1000,
 })
 
-module.exports = Conection
+module.exports = ConectionFace

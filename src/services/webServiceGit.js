@@ -1,7 +1,7 @@
 const Octokit = require("@octokit/rest");
 
 const octokit = new Octokit({
-  auth: ""
+  auth: process.env.git_token
   
 });
 
