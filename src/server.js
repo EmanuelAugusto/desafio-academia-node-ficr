@@ -8,7 +8,6 @@ app.set('json spaces',4)
 
 route(app)
 
-
 app.listen(port, () => {
     console.log("APi rodando")
 })

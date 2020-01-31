@@ -1,5 +1,5 @@
 const skeleton = (objs, gitRepoSort) => {
-  
+  //Ajuda a montar o esqueleto do json
   let repos = [];
 
   const repositorios =  gitRepoSort.sort( (a,b) => {
