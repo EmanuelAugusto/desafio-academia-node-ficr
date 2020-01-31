@@ -3,4 +3,11 @@ module.exports = function(app) {
 
     app.route('/api/curriculo')
     .get(curriculoController.find)
+
+    app.get('*', function(req, res){
+        res.json({
+            error: 404,
+            about: "Rota não encontrada"
+        });
+    });
 }
