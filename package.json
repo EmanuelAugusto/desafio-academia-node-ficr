@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "nodemon ./src/server"
+    "dev": "nodemon ./src/server",
+    "start": "node src/server"
+
   },
   "dependencies": {
     "@octokit/rest": "^16.40.0",
