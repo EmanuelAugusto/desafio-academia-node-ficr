@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 const route = require('./routes');
+const cors = require('cors');
 const port = process.env.PORT || 3000;
-require('dotenv').config()
+require('dotenv').config();
+app.use(cors());
 
 app.set('json spaces',4)
 
